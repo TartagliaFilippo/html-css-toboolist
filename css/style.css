@@ -1,0 +1,31 @@
+/* GENERICHE */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: grey;
+}
+
+/* UTILI */
+
+
+/* HEADER */
+header{
+    height: 55px;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    position: absolute;
+    bottom: 18px;
+    left: 70px;
+}
