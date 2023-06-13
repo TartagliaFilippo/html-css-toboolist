@@ -9,6 +9,7 @@ body{
 .check{
     display: inline-block;
     height: 16px;
+    width: 16px;
     line-height: 16px;
     color: green;
     border: 1px solid green;
@@ -19,11 +20,19 @@ body{
 .cross{
     display: inline-block;
     height: 16px;
+    width: 16px;
     line-height: 16px;
     color: red;
     border: 1px solid red;
     border-radius: 50%;
     text-align: center;
+}
+
+.container{
+    font-size: 10px;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 8px;
 }
 
 /* HEADER */
@@ -90,4 +99,30 @@ h2{
     left: 127px;
     border-radius: 3px;
     border: 1px solid lightgrey;
+}
+
+/* COLORI SPAN */
+
+.mare{
+    background-color: #45ABEA;
+}
+
+.fast{
+    background-color: #9C72E4;
+}
+
+.lago{
+    background-color: #64C0A9;
+}
+
+.sole{
+    background-color: #F29E33;
+}
+
+.donna{
+    background-color: #D863A1;
+}
+
+.natura{
+    background-color: #B0C926;
 }
