@@ -3,7 +3,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: grey;
+    background-color: #F6F8F9;
 }
 
 /* UTILI */
@@ -31,3 +31,38 @@ h1{
 }
 
 /* MAIN */
+
+main{
+    width: 80%;
+    background-color: white;
+    margin: 50px auto 0;
+    border-radius: 5px;
+}
+
+.buttons{
+    height: 40px;
+    border-bottom: 2px solid #F6F8F9;
+    position: relative;
+}
+
+.task{
+    height: 25px;
+    color: white;
+    background-color: #47ADF1;
+    position: absolute;
+    bottom: 6px;
+    left: 40px;
+    border-radius: 3px;
+    border: #47ADF1;
+}
+
+.section{
+    height: 25px;
+    color: #C7CDD2;
+    background-color: white;
+    position: absolute;
+    bottom: 6px;
+    left: 117px;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+}
